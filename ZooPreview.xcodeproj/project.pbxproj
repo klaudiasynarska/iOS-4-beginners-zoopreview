@@ -13,6 +13,8 @@
 		8EFDFF06273E782A00A4DB28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDFF05273E782A00A4DB28 /* ContentView.swift */; };
 		8EFDFF08273E782C00A4DB28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFDFF07273E782C00A4DB28 /* Assets.xcassets */; };
 		8EFDFF0B273E782C00A4DB28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFDFF0A273E782C00A4DB28 /* Preview Assets.xcassets */; };
+		D5B060C82746F16A00B34FE5 /* AvatarNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B060C72746F16A00B34FE5 /* AvatarNameView.swift */; };
+		D5B060CA2746F33600B34FE5 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B060C92746F33600B34FE5 /* AvatarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		8EFDFF05273E782A00A4DB28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8EFDFF07273E782C00A4DB28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EFDFF0A273E782C00A4DB28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5B060C72746F16A00B34FE5 /* AvatarNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarNameView.swift; sourceTree = "<group>"; };
+		D5B060C92746F33600B34FE5 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				8E9F2451273FD22D00E0C076 /* Goat.swift */,
 				8EFDFF03273E782A00A4DB28 /* ZooPreviewApp.swift */,
 				8EFDFF09273E782C00A4DB28 /* Preview Content */,
+				D5B060C72746F16A00B34FE5 /* AvatarNameView.swift */,
+				D5B060C92746F33600B34FE5 /* AvatarView.swift */,
 			);
 			path = ZooPreview;
 			sourceTree = "<group>";
@@ -144,9 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E4B2ECD27430FC700231A1F /* BouncingHeaderView.swift in Sources */,
+				D5B060CA2746F33600B34FE5 /* AvatarView.swift in Sources */,
 				8EFDFF06273E782A00A4DB28 /* ContentView.swift in Sources */,
 				8E9F2452273FD22D00E0C076 /* Goat.swift in Sources */,
 				8EFDFF04273E782A00A4DB28 /* ZooPreviewApp.swift in Sources */,
+				D5B060C82746F16A00B34FE5 /* AvatarNameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
