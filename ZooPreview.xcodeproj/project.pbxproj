@@ -15,6 +15,8 @@
 		8EFDFF0B273E782C00A4DB28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFDFF0A273E782C00A4DB28 /* Preview Assets.xcassets */; };
 		D5B060C82746F16A00B34FE5 /* AvatarNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B060C72746F16A00B34FE5 /* AvatarNameView.swift */; };
 		D5B060CA2746F33600B34FE5 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B060C92746F33600B34FE5 /* AvatarView.swift */; };
+		D5B060CC2747021400B34FE5 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B060CB2747021400B34FE5 /* InfoView.swift */; };
+		D5B060CE2747092600B34FE5 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B060CD2747092600B34FE5 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		8EFDFF0A273E782C00A4DB28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D5B060C72746F16A00B34FE5 /* AvatarNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarNameView.swift; sourceTree = "<group>"; };
 		D5B060C92746F33600B34FE5 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		D5B060CB2747021400B34FE5 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		D5B060CD2747092600B34FE5 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				8EFDFF09273E782C00A4DB28 /* Preview Content */,
 				D5B060C72746F16A00B34FE5 /* AvatarNameView.swift */,
 				D5B060C92746F33600B34FE5 /* AvatarView.swift */,
+				D5B060CB2747021400B34FE5 /* InfoView.swift */,
+				D5B060CD2747092600B34FE5 /* DetailsView.swift */,
 			);
 			path = ZooPreview;
 			sourceTree = "<group>";
@@ -154,7 +160,9 @@
 				8EFDFF06273E782A00A4DB28 /* ContentView.swift in Sources */,
 				8E9F2452273FD22D00E0C076 /* Goat.swift in Sources */,
 				8EFDFF04273E782A00A4DB28 /* ZooPreviewApp.swift in Sources */,
+				D5B060CE2747092600B34FE5 /* DetailsView.swift in Sources */,
 				D5B060C82746F16A00B34FE5 /* AvatarNameView.swift in Sources */,
+				D5B060CC2747021400B34FE5 /* InfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

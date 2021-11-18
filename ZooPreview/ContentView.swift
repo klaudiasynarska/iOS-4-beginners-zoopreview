@@ -28,7 +28,9 @@ struct ContentView: View {
                         avatarView: AvatarView(emoji: "🐐" )
                     )
             
-                    Text("Maaaaake me 🐐")
+                    InfoView()
+                    DetailsView(infos: goat.info)
+                  
                 }
                 .padding()
             }
