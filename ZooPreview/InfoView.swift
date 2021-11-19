@@ -17,7 +17,8 @@ struct InfoView: View {
                 
             }
                 .frame(width: 12, height: 12)
-            Text("Info")
+            Text("Info").font(.headline)
+            
         }
     }
 }

@@ -30,6 +30,7 @@ struct ContentView: View {
             
                     InfoView()
                     DetailsView(infos: goat.info)
+                    FunFactsView(funFacts: goat.funFacts)
                   
                 }
                 .padding()
