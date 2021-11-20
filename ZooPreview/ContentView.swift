@@ -21,19 +21,19 @@ struct ContentView: View {
                 }
                     .frame(height: 300)
                 
-                VStack(alignment: .leading, spacing: 0) {
+                VStack(alignment: .leading, spacing: 8) {
                     AvatarNameView (
                         name: goat.name,
                         description: goat.subtitle,
                         avatarView: AvatarView(emoji: "🐐" )
                     )
-                    Spacer().frame(height: 24)
-                    InfoView()
+                    
                     Spacer().frame(height: 16)
                     DetailsView(infos: goat.info)
-                    Spacer().frame(height: 24)
+                    
+                    Spacer().frame(height: 16)
                     FunFactsView(funFacts: goat.funFacts)
-                    Spacer().frame(height: 8)
+                    
                     GalleryView(imagesNames: goat.images)
                   
                 }

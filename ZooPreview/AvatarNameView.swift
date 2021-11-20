@@ -19,7 +19,7 @@ struct AvatarNameView: View {
             VStack(alignment: .leading) {
                 Text(name).font(.title)
                 Text(description)
-                    .foregroundColor(Color(UIColor.secondaryLabel))
+                    .foregroundColor(Color(.secondaryLabel))
                     .font(.subheadline)
                     
             }
@@ -29,6 +29,10 @@ struct AvatarNameView: View {
 
 struct AvatarNameView_Previews: PreviewProvider {
     static var previews: some View {
-        AvatarNameView(name: "Gotenks", description: "The escape goat", avatarView: AvatarView(emoji: "🐐"))
+        AvatarNameView(
+            name: "Gotenks",
+            description: "The escape goat",
+            avatarView: AvatarView(emoji: "🐐")
+        )
     }
 }

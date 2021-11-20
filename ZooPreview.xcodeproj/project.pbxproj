@@ -17,7 +17,6 @@
 		D52749082748680400A04409 /* GalleryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52749072748680400A04409 /* GalleryItemView.swift */; };
 		D5B060C82746F16A00B34FE5 /* AvatarNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B060C72746F16A00B34FE5 /* AvatarNameView.swift */; };
 		D5B060CA2746F33600B34FE5 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B060C92746F33600B34FE5 /* AvatarView.swift */; };
-		D5B060CC2747021400B34FE5 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B060CB2747021400B34FE5 /* InfoView.swift */; };
 		D5B060CE2747092600B34FE5 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B060CD2747092600B34FE5 /* DetailsView.swift */; };
 		D5B060D02747137100B34FE5 /* FunFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B060CF2747137100B34FE5 /* FunFactsView.swift */; };
 /* End PBXBuildFile section */
@@ -34,7 +33,6 @@
 		D52749072748680400A04409 /* GalleryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItemView.swift; sourceTree = "<group>"; };
 		D5B060C72746F16A00B34FE5 /* AvatarNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarNameView.swift; sourceTree = "<group>"; };
 		D5B060C92746F33600B34FE5 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
-		D5B060CB2747021400B34FE5 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		D5B060CD2747092600B34FE5 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		D5B060CF2747137100B34FE5 /* FunFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +75,6 @@
 				8EFDFF09273E782C00A4DB28 /* Preview Content */,
 				D5B060C72746F16A00B34FE5 /* AvatarNameView.swift */,
 				D5B060C92746F33600B34FE5 /* AvatarView.swift */,
-				D5B060CB2747021400B34FE5 /* InfoView.swift */,
 				D5B060CD2747092600B34FE5 /* DetailsView.swift */,
 				D5B060CF2747137100B34FE5 /* FunFactsView.swift */,
 				D52749052748647700A04409 /* GalleryView.swift */,
@@ -172,7 +169,6 @@
 				8EFDFF04273E782A00A4DB28 /* ZooPreviewApp.swift in Sources */,
 				D5B060CE2747092600B34FE5 /* DetailsView.swift in Sources */,
 				D5B060C82746F16A00B34FE5 /* AvatarNameView.swift in Sources */,
-				D5B060CC2747021400B34FE5 /* InfoView.swift in Sources */,
 				D5B060D02747137100B34FE5 /* FunFactsView.swift in Sources */,
 				D52749062748647700A04409 /* GalleryView.swift in Sources */,
 			);

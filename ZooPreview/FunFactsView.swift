@@ -15,7 +15,8 @@ struct FunFactsView: View {
         VStack(alignment: .leading, spacing: 8) {
             HStack {
                 Image(systemName: "brain")
-                Text("Fun Facts").font(.headline)
+                Text("Fun Facts")
+                    .font(.headline)
             }
 
             ForEach(funFacts, id: \.self) { funFact in
@@ -23,6 +24,7 @@ struct FunFactsView: View {
                     Image(systemName: "circle.fill")
                         .font(.system(size: 10))
                         .padding(4)
+
                     Text(funFact).font(.body)
                 }
             }.padding([.leading, .trailing, .bottom], 8)

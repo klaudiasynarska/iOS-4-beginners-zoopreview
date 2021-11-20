@@ -14,8 +14,9 @@ struct AvatarView: View {
     var body: some View {
         ZStack {
             Circle()
-                .foregroundColor(Color(UIColor.secondarySystemBackground))
+                .foregroundColor(Color(.secondarySystemBackground))
             Text(emoji)
+                .font(.system(size: 28))
         }
             .frame(width: 40, height: 40, alignment: .center)
             .shadow(color: .gray, radius: 2, x: 0, y: 0)

@@ -16,7 +16,8 @@ struct GalleryView: View {
         VStack(alignment: .leading, spacing: 16) {
             HStack {
                 Image(systemName: "photo")
-                Text("Gallery").font(.headline)
+                Text("Gallery")
+                    .font(.headline)
             }
             
             ScrollView(.horizontal) {

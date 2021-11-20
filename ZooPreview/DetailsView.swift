@@ -12,19 +12,30 @@ struct DetailsView: View {
     let infos: [Goat.Info]
     
     var body: some View {
-        HStack {
-            ForEach(infos, id: \.self) { info in
-                VStack(spacing: 4) {
-                    Text(info.label).font(.body)
-                    Text(info.value)
-                        .font(.subheadline)
-                        .foregroundColor(Color(.secondaryLabel))
+        VStack(alignment: .leading, spacing: 16) {
+            HStack {
+                Image(systemName: "info.circle.fill")
+                Text("Info")
+                    .font(.headline)
+            }
+            
+            HStack {
+                ForEach(infos, id: \.self) { info in
+                    VStack(spacing: 4) {
+                        Text(info.label)
+                            .font(.body)
+
+                        Text(info.value)
+                            .font(.subheadline)
+                            .foregroundColor(Color(.secondaryLabel))
+                            .multilineTextAlignment(.center)
+                    }
+                    
+                    if (info != infos.last) {
+                        Divider()
+                    }
                 }
-                
-                if (info != infos.last) {
-                    Divider()
-                }
-            }        
+            }
         }
     }
 }
@@ -33,10 +44,10 @@ struct DetailsView_Previews: PreviewProvider {
     static var previews: some View {
         DetailsView(
             infos: [
-                .init(label: "Age", value: "8 years"),
-                .init(label: "Color", value: "Dirty white"),
-                .init(label: "Birth place", value: "Dublin"),
-                .init(label: "Breed", value: "Old Irish Goats")
+                Goat.Info(label: "Age", value: "8 years"),
+                Goat.Info(label: "Color", value: "Dirty white"),
+                Goat.Info(label: "Birth place", value: "Dublin"),
+                Goat.Info(label: "Breed", value: "Old Irish Goats")
             ]
         )
     }
