@@ -10,13 +10,7 @@ import SwiftUI
 struct InfoView: View {
     var body: some View {
         HStack {
-            ZStack {
-                Circle()
-                Text("𝐢")
-                    .foregroundColor(.white)
-                
-            }
-                .frame(width: 12, height: 12)
+            Image(systemName: "info.circle.fill")
             Text("Info").font(.headline)
             
         }

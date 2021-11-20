@@ -18,8 +18,8 @@ struct GalleryItemView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             HStack {
-                Text("🐒")
-                Text(title)
+                Image(systemName: "photo")
+                Text(title).font(.subheadline)
             }.padding(4)
 
             Image(uiImage: image)
@@ -32,17 +32,10 @@ struct GalleryItemView: View {
                 )
                 .clipShape(RoundedRectangle(cornerRadius: 6))
                 .padding([.leading, .trailing, .bottom], GalleryItemView.imageMargin)
-                
-            
         }.background(
             RoundedRectangle(cornerRadius: 8)
                 .foregroundColor(Color(.secondarySystemBackground))
         )
-        
-            
-        
-        
-        
     }
 }
 

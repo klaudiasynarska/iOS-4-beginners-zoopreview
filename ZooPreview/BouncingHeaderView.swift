@@ -9,18 +9,26 @@ import SwiftUI
 
 struct BouncingHeaderView<Content: View>: View {
 	
-	init(content: @escaping () -> Content) {
+	init(title: String, content: @escaping () -> Content) {
+        self.title = title
 		self.content = content
 	}
 	
-	let content: () -> Content
+    let content: () -> Content
+    let title: String
 	
     var body: some View {
-		GeometryReader { proxy in
-			content()
-				.frame(height: max(0, proxy.size.height + proxy.frame(in: .global).minY))
-				.clipped()
-				.offset(y: -proxy.frame(in: .global).minY)
-		}
+        ZStack(alignment: .bottomLeading) {
+            GeometryReader { proxy in
+                content()
+                    .frame(height: max(0, proxy.size.height + proxy.frame(in: .global).minY))
+                    .clipped()
+                    .offset(y: -proxy.frame(in: .global).minY)
+            }
+            Text(title)
+                .font(.largeTitle)
+                .foregroundColor(.white)
+                .padding(16)
+        }
     }
 }

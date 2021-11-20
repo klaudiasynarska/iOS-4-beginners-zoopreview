@@ -13,14 +13,14 @@ struct GalleryView: View {
     
     var body: some View {
         
-        VStack(alignment: .leading) {
+        VStack(alignment: .leading, spacing: 16) {
             HStack {
-                Text("🐒")
+                Image(systemName: "photo")
                 Text("Gallery").font(.headline)
             }
             
             ScrollView(.horizontal) {
-                HStack {
+                LazyHStack {
                     ForEach(Array(imagesNames.enumerated()), id: \.element) { index, imageName in
                         if let image = UIImage(named: imageName) {
                             let imageNumber = index + 1

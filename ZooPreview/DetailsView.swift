@@ -18,7 +18,7 @@ struct DetailsView: View {
                     Text(info.label).font(.body)
                     Text(info.value)
                         .font(.subheadline)
-                        .foregroundColor(Color(UIColor.secondaryLabel))
+                        .foregroundColor(Color(.secondaryLabel))
                 }
                 
                 if (info != infos.last) {
@@ -26,7 +26,6 @@ struct DetailsView: View {
                 }
             }        
         }
-        
     }
 }
 

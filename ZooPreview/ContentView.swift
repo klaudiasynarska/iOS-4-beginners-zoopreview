@@ -14,27 +14,30 @@ struct ContentView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
-                BouncingHeaderView {
+                BouncingHeaderView(title: "Goat") {
                     Image(goat.mainImage)
                         .resizable()
                         .scaledToFill()
                 }
                     .frame(height: 300)
                 
-                VStack(alignment: .leading) {
+                VStack(alignment: .leading, spacing: 0) {
                     AvatarNameView (
                         name: goat.name,
                         description: goat.subtitle,
                         avatarView: AvatarView(emoji: "🐐" )
                     )
-            
+                    Spacer().frame(height: 24)
                     InfoView()
+                    Spacer().frame(height: 16)
                     DetailsView(infos: goat.info)
+                    Spacer().frame(height: 24)
                     FunFactsView(funFacts: goat.funFacts)
+                    Spacer().frame(height: 8)
                     GalleryView(imagesNames: goat.images)
                   
                 }
-                .padding()
+                .padding(16)
             }
         }
     }
